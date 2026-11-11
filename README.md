@@ -4,6 +4,27 @@
 
 栖刻以透明无边框的小表盘常驻桌面，提供可调整的专注时长、到点提醒和每日专注统计。使用 SwiftUI 与 AppKit 构建，无需账号，计时和记录均在本机完成。
 
+[下载 Mac 版](https://github.com/christina-mori/qike/releases/latest) · Apple Silicon · macOS 14+
+
+## 界面预览
+
+以下为应用实际截图，展示烟紫配色。点击图片可查看原图。
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="38%">
+      <a href="docs/screenshots/desktop-clock.jpg"><img src="docs/screenshots/desktop-clock.jpg" alt="栖刻透明圆形桌面时钟，显示剩余专注时间和播放按钮" width="184"></a>
+      <p><strong>桌面小时钟</strong><br>轻巧表盘，随时查看剩余时间</p>
+      <a href="docs/screenshots/reminder-preview.jpg"><img src="docs/screenshots/reminder-preview.jpg" alt="栖刻提醒效果测试弹窗，提示喝水和起身活动" width="280"></a>
+      <p><strong>到点提醒</strong><br>图中为应用自带的提醒测试</p>
+    </td>
+    <td align="center" valign="top" width="62%">
+      <a href="docs/screenshots/focus-dashboard.jpg"><img src="docs/screenshots/focus-dashboard.jpg" alt="今日专注面板，包含专注时长选择、计时控制、五种配色和今日记录" width="460"></a>
+      <p><strong>今日专注面板</strong><br>时长、轮数、配色与专注记录</p>
+    </td>
+  </tr>
+</table>
+
 ## 功能亮点
 
 - **专注与休息自动循环**：支持 25、30、35、40、45 分钟专注，默认 40 分钟，每轮休息 5 分钟；支持暂停、恢复、重置与跳过休息。
