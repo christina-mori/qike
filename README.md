@@ -15,7 +15,20 @@
 - **灵活调整节奏**：修改专注时长会保留本轮进度；提前结束或重置时，已投入的专注时间仍会保留。
 - **可选休息视频**：配置视频链接后，进入休息时自动用默认浏览器打开。
 
-## 环境要求
+## 下载安装
+
+前往 [最新 Release](https://github.com/christina-mori/qike/releases/latest)，下载附件中的 `Qike-v1.0.0-macOS-arm64.zip`，无需安装开发工具或自行编译。
+
+1. 解压 ZIP，将 `栖刻.app` 拖入「应用程序」文件夹。
+2. 打开「栖刻」，点击「开始专注」，并允许发送系统通知。
+
+下载版适用于 **Apple Silicon Mac、macOS 14 或更新版本**，不支持 Intel Mac。当前版本仅做本地临时签名，尚未经过 Apple Developer ID 签名和公证；首次打开可能被 macOS 拦截。确认下载来源是本仓库 Release 后，可在「系统设置 → 隐私与安全性」中使用「仍要打开」。受管理的 Mac 可能不允许此操作。
+
+Release 同时提供 `SHA256SUMS.txt`，可用于核对下载文件的完整性。
+
+## 从源码构建
+
+### 环境要求
 
 - Apple Silicon Mac（当前构建脚本面向 arm64）。
 - macOS 14 或更新版本。
@@ -23,7 +36,7 @@
 
 项目仅使用系统提供的 SwiftUI、AppKit、UserNotifications 和 AVFoundation，无需安装第三方运行时或包管理器依赖。
 
-## 快速开始
+### 构建步骤
 
 首次构建前，如未安装 Xcode 命令行工具，运行：
 
